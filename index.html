@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人简历-Sourire</title>
+    <base target="_blank"/>
+    <link rel="shortcut icon" href="bitbug_favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+    <script src="https://at.alicdn.com/t/font_1245985_rb6p1k2q24.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
+</head>
+
+<body>
+    <!-- 加载动画 -->
+    <div id="load" class="load">
+        <div class="loading"></div>
+    </div>
+    <!-- 顶部导航 -->
+    <div class="topNavBar" id="topNavBar">
+        <div class="topNavBar-inner clearfix">
+            <a href="#" class="logo">
+                <span class="logo-l">BUBU</span><span class="logo-r">card</span>
+            </a>
+            <nav class="menu">
+                <ul class="clearfix">
+                    <li><a href="#siteAbout" class="pageNav">关于</a></li>
+                    <li><a href="#siteSkills" class="pageNav">技能</a></li>
+                    <li><a href="#siteWorks" class="pageNav">作品</a>
+                        <ul class="dropDown">
+                            <li>作品1</li>
+                            <li>作品2</li>
+                            <li>作品3</li>
+                            <li>小工具</li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.cnblogs.com/BUBU-Sourire/">博客</a>
+                    </li>
+                    <li><a href="" class="pageNav">日历</a></li>
+                    <li><a href="" class="pageNav">联系方式</a></li>
+                    <li><a href="" class="pageNav">其它</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <!-- 简历卡片 -->
+    <main>
+        <div class="userCard" id="siteAbout" data-x>
+            <div class="userCard-inner clearfix">
+                <div class="portrait">
+                    <img src="images/portrait.jpg" alt="">
+                </div>
+                <div class="introduce clearfix">
+                    <span class="hello">
+                        Hello!
+                        <span class="square"></span>
+                    </span>
+                    <h1>卜巧囡</h1>
+                    <p>前端开发工程师</p>
+                    <hr>
+                    <dl>
+                        <dt>所在城市</dt>
+                        <dd>苏州</dd>
+                        <dt>邮箱</dt>
+                        <dd>123456@qq.com</dd>
+                        <dt>联系方式</dt>
+                        <dd>12345678</dd>
+                    </dl>
+                </div>
+            </div>
+            <footer class="media">
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bokeblogger3"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq-copy-copy"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin-copy"></use>
+                    </svg>
+                </a>
+            </footer>
+        </div>
+        <!-- 下载按钮 -->
+        <p class="download">
+            <a class="download-content" href="ENUtxt.pdf" target="_blank" download>下载 PDF 简历</a>
+        </p>
+        <p class="introbute-content">
+            前端工程师，技能：前端开发
+        </p>
+    </main>
+    <!-- 技能 -->
+    <section class="skill" id="siteSkills" data-x>
+        <h2>技 能</h2>
+        <div class="skillInner">
+            <div class="skillContent">
+                <ol class="clearfix">
+                    <li>
+                        <h3>HTML 5 & CSS 3</h3>
+                        <div class="progressBar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>JavaScript</h3>
+                        <div class="progressBar">
+                            <div class="progress" style="width: 40%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>jQuery</h3>
+                        <div class="progressBar">
+                            <div class="progress" style="width: 30%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Vue.js</h3>
+                        <div class="progressBar">
+                            <div class="progress" style="width: 30%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>React.js</h3>
+                        <div class="progressBar">
+                            <div class="progress" style="width: 30%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Node.js</h3>
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- 作品集 -->
+    <section class="sampleReels show" id="siteWorks" data-x>
+        <h2>作 品 集</h2>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="https://bubusourire.github.io/Drawing-board/index.html"><img src="images/画板.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://bubusourire.github.io/Project-nav-search/index.html"><img src="images/导航.jpg" alt=""></a></div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+        
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+
+</html>
