@@ -375,7 +375,7 @@ img {
 
 /*技能板块开始*/
 
-.sampleReels>h2, .skill h2 {
+.sampleReels>h2, .skill>h2,.message>h2 {
     text-align: center;
     color: #3d4451;
     font-size: 34px;
@@ -473,3 +473,16 @@ img {
       height: 210px;
   }
 /*作品集结束*/
+
+/*留言板块开始*/
+#postMessageForm {
+    text-align: center;
+    margin: 20px;
+}
+#messageList {
+    margin: 0 auto;
+    border: 1px solid #906D8C;
+    width: 900px;
+    text-align: center;
+}
+/*留言板块结束*/
