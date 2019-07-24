@@ -512,10 +512,9 @@ img {
 
 /*footer开始*/
 .foot {
-   
-    height: 50px;
+    height: 150px;
     background-color: #ccc;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /*footer结束*/
