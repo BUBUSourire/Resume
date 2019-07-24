@@ -481,6 +481,11 @@ img {
 /*作品集结束*/
 
 /*留言板块开始*/
+.message {
+    height: 510px;
+    overflow: hidden;
+}   
+
 
 #postMessageForm {
     text-align: center;
@@ -507,6 +512,7 @@ img {
 
 /*footer开始*/
 .foot {
+   
     height: 50px;
     background-color: #ccc;
     margin-top: 100px;

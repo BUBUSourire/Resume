@@ -18,15 +18,12 @@ myForm.addEventListener('submit', (e) => {
         'name':name,
         'content': content
     }).then(function (object) {
-        alert('提交成功')
-        let li = document.createElement('li')
-        li.innerText = `${object.attributes.name}: ${object.attributes.content}`
-        let messageList = document.querySelector('#messageList')
-        messageList.append(li)
+        // alert('提交成功')
+        // let li = document.createElement('li')
+        // li.innerText = `${object.attributes.name}: ${object.attributes.content}`
+        // let messageList = document.querySelector('#messageList')
+        // messageList.append(li)
         window.location.reload()  //成功后自动刷新页面
-        
-
-        
         myForm.querySelector('input[name=content]').value=''
     })
 })
