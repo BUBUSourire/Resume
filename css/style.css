@@ -14,6 +14,7 @@ ul, ol, li, dl, dt, dd, h1, p, h2, h3 {
 a {
     text-decoration: none;
 }
+
 img {
     display: block;
 }
@@ -375,7 +376,7 @@ img {
 
 /*技能板块开始*/
 
-.sampleReels>h2, .skill>h2,.message>h2 {
+.sampleReels>h2, .skill>h2, .message>h2 {
     text-align: center;
     color: #3d4451;
     font-size: 34px;
@@ -440,16 +441,19 @@ img {
     margin: 100px auto;
     text-align: center;
 }
+
 .sampleReels>h2, .skill h2 {
     margin-bottom: 20px;
 }
+
 .swiper-container {
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-  }
-  .swiper-slide {
+}
+
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background-color: #fff;
@@ -468,21 +472,37 @@ img {
     -webkit-align-items: center;
     align-items: center;
     background-color: #fff;
-  }
-  .swiper-slide>a {
-      height: 210px;
-  }
+}
+
+.swiper-slide>a {
+    height: 210px;
+}
+
 /*作品集结束*/
 
 /*留言板块开始*/
+
 #postMessageForm {
     text-align: center;
     margin: 20px;
 }
+#postMessageForm input {
+    outline-color: #906D8C;
+}
 #messageList {
+    max-width: 700px;
     margin: 0 auto;
-    border: 1px solid #906D8C;
-    width: 900px;
-    text-align: center;
+}
+
+#messageList li {
+    background-color: #fff;
+    height: 50px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    line-height: 50px;
+}
+#submit {
+    width: 90px;
+   
 }
 /*留言板块结束*/
