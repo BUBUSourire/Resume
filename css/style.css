@@ -500,9 +500,16 @@ img {
     margin-bottom: 8px;
     border-radius: 3px;
     line-height: 50px;
+    padding: 5px;
 }
-#submit {
-    width: 90px;
-   
-}
+
 /*留言板块结束*/
+
+/*footer开始*/
+.foot {
+    height: 50px;
+    background-color: #ccc;
+    margin-top: 100px;
+}
+
+/*footer结束*/

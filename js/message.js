@@ -19,13 +19,14 @@ myForm.addEventListener('submit', (e) => {
         'content': content
     }).then(function (object) {
         // alert('提交成功')
-        // window.location.reload()  //成功后自动刷新页面
-        let li = document.createElement('li')
-        li.innerText = `${object.attributes.name}: ${object.attributes.content}`
-        let messageList = document.querySelector('#messageList')
-        messageList.append(li)
+        // let li = document.createElement('li')
+        // li.innerText = `${object.attributes.name}: ${object.attributes.content}`
+        // let messageList = document.querySelector('#messageList')
+        // messageList.append(li)
+        window.location.reload()  //成功后自动刷新页面
+        
+        myForm.querySelector('input[name=content]').value=''
     })
-
 })
 
 //将留言内容显示在页面
@@ -33,6 +34,7 @@ var query = new AV.Query('Message');
 query.find().then(function (messages) {
     //  console.log(messages)
     let array = messages.map((item) => item.attributes)//注意map用法，创建键值对，存储客户传进的留言,形成数组
+    array.reverse()
     array.forEach((item) => {//遍历数组，对每一项进行操作
         let li = document.createElement('li')
         li.innerText = `${item.name}: ${item.content}`
