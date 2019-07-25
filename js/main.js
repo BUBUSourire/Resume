@@ -3,7 +3,7 @@ function my$(id) {
 };
 
 !function () {
-    var view = document.querySelector('#mySwiper')
+    var view = View('#mySwiper')
 
     var controller = {
         view: null,
