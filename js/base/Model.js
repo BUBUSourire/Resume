@@ -13,7 +13,7 @@ window.Model = function (options) {
         },
         //保存数据
         save: function (object) {
-            var x = AV.Object.extend(resourceName)//创建表，表名为Message
+            var x = AV.Object.extend(resourceName)//创建表，表名（resourceName）
             var y = new x()//在表中创建一行数据
             return y.save(object)
         }
