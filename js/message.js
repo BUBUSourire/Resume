@@ -57,5 +57,5 @@
      * ->  controller === object === controller.init(view, model)中this
      * 
      * initB.call(this) 此this为就是上文中的this，就是object
-     * ->  controller === object === controller.init(view, model)中this === initB.call(this)
+     * -> controller === object === controller.init(view, model)中this === initB.call(this)
      */
