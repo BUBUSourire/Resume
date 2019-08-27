@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #eee;
+    background-color: rgb(252, 249, 249);
 }
 
 ul, ol, li, dl, dt, dd, h1, p, h2, h3 {
@@ -458,6 +458,8 @@ img {
     font-size: 18px;
     background-color: #fff;
     height: 200px;
+    position: relative;
+    overflow: hidden;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -474,26 +476,48 @@ img {
     background-color: #fff;
 }
 
+.swiper-slide:hover {
+    box-shadow: -2px 7px 42px -7px rgba(0,0,0,0.75);
+    transition: all 0.8s;
+}
+
 .swiper-slide>a {
     height: 210px;
+}
+
+.swiper-slide-1 {
+    width: 290px;
+    height: 30px;
+    background-color: #efefef;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.swiper-slide a:hover .swiper-slide-1 {
+    display: block;
+    transition: all 2s;
 }
 
 /*作品集结束*/
 
 /*留言板块开始*/
+
 .message {
     height: 510px;
     overflow: hidden;
-}   
-
+}
 
 #postMessageForm {
     text-align: center;
     margin: 20px;
 }
+
 #postMessageForm input {
     outline-color: #906D8C;
 }
+
 #messageList {
     max-width: 700px;
     margin: 0 auto;
@@ -511,6 +535,7 @@ img {
 /*留言板块结束*/
 
 /*footer开始*/
+
 .foot {
     height: 50px;
     background-color: #ccc;
