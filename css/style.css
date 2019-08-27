@@ -477,7 +477,7 @@ img {
 }
 
 .swiper-slide:hover {
-    box-shadow: -2px 7px 42px -7px rgba(0,0,0,0.75);
+    box-shadow: -4px -1px 46px -15px rgba(0,0,0,0.75);
     transition: all 0.8s;
 }
 
