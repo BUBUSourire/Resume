@@ -130,7 +130,7 @@ img {
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0；
+    left: 0;
 }
 
 .topNavBar.sticky {
@@ -435,6 +435,15 @@ img {
 /*技能板块结束*/
 
 /*作品集开始*/
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 209px 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px !important;
+    background-color: #906D8C!important;
+}
 
 .sampleReels {
     max-width: 920px;
