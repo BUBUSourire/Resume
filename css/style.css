@@ -436,15 +436,6 @@ img {
 
 /*作品集开始*/
 
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 209px 4px !important;
-}
-
-.swiper-pagination-bullet-active {
-    width: 15px !important;
-    background-color: #906D8C!important;
-}
-
 .sampleReels {
     max-width: 920px;
     margin: 100px auto;
@@ -552,3 +543,19 @@ img {
 }
 
 /*footer结束*/
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 215px !important;
+}
+
+.swiper-pagination-bullet {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*margin: 209px 4px !important;*/
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px !important;
+    background-color: #906D8C!important;
+}
