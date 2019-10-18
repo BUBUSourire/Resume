@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="be35ef91-374a-43a2-b3b6-7bf023d66c06" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cnode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/css drawing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/css drawing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/snack-game.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loading.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +22,13 @@
   <component name="ProjectId" id="1QwfpOsUh44or4VRC7mG6VPIDxR" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\》》》前端《《《\Practice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +52,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568686761847</updated>
-      <workItem from="1568686763039" duration="4927000" />
+      <workItem from="1568686763039" duration="10591000" />
+      <workItem from="1568770223583" duration="15000" />
+      <workItem from="1568950488417" duration="69000" />
+      <workItem from="1568950586318" duration="53000" />
+      <workItem from="1571381530054" duration="1932000" />
     </task>
     <servers />
   </component>
@@ -53,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
