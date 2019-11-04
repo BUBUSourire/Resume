@@ -265,6 +265,7 @@ img {
     margin: 0 auto;
     background-color: #fff;
     margin-top: -250px;
+    position: relative;
 }
 
 .userCard-inner {
@@ -312,29 +313,29 @@ img {
 
 .introduce dl dt {
     width: 30%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-weight: 700;
 }
 
 .introduce dl dd {
     width: 70%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: #9a9da2;
 }
 
-.userCard .media {
+.media {
     background-color: #906D8C;
     text-align: center;
 }
 
-.userCard .media a {
+.media a {
     display: inline-block;
     width: 40px;
     padding: 5px 0;
     margin: 16px;
 }
 
-.userCard svg {
+.media svg {
     width: 30px;
     height: 30px;
     fill: #fff;

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be35ef91-374a-43a2-b3b6-7bf023d66c06" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cnode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/css drawing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/css drawing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/snack-game.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portrait.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loading.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +19,7 @@
   </component>
   <component name="ProjectId" id="1QwfpOsUh44or4VRC7mG6VPIDxR" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,8 +55,17 @@
       <workItem from="1568770223583" duration="15000" />
       <workItem from="1568950488417" duration="69000" />
       <workItem from="1568950586318" duration="53000" />
-      <workItem from="1571381530054" duration="1932000" />
+      <workItem from="1571381530054" duration="2331000" />
+      <workItem from="1572788217396" duration="2393000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1571384590696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571384590696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
 </project>
