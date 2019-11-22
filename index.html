@@ -1,242 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>个人简历-Sourire</title>
-    <base target="_blank"/>
-    <link rel="shortcut icon" href="bitbug_favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <title>卜巧囡个人简历</title>
+    <link rel="stylesheet" href="./css/index.scss">
 </head>
-
 <body>
-<!-- 加载动画 -->
-<div id="load" class="load">
-    <div class="loading"></div>
-</div>
-<!-- 顶部导航 -->
-<div class="topNavBar" id="topNavBar">
-    <div class="topNavBar-inner clearfix">
-        <a href="#" class="logo">
-            <span class="logo-l">卜 巧 囡 </span><span class="logo-r"> 个人简历</span>
-        </a>
-        <nav class="menu">
-            <ul class="clearfix">
-                <li><a href="#siteAbout" class="pageNav">关于</a></li>
-                <li><a href="#siteSkills" class="pageNav">技能</a></li>
-                <li><a href="#siteWorks" class="pageNav">作品源码</a>
-                    <ul class="dropDown">
-                        <li><a href="https://github.com/BUBUSourire/CSS-Drawing">CSS绘图-长草颜团子</a></li>
-                        <li><a href="https://github.com/BUBUSourire/Drawing-board">Canvas画板</a></li>
-                        <li><a href="https://github.com/BUBUSourire/Project-nav-search">自定义导航</a></li>
-                        <li><a href="https://github.com/BUBUSourire/Vue-demo2-cnode">Vue仿站-cnode</a></li>
-                        <li><a href="https://github.com/BUBUSourire/Vue-demo4_Share-Blog">Vue-共享博客</a></li>
-                        <li><a href="https://github.com/BUBUSourire/Game-retro-snaker">简化版贪吃蛇小游戏</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://www.cnblogs.com/BUBU-Sourire/">博客</a></li>
-                <li><a href="#siteMessage" class="pageNav">留言</a></li>
-                <li><a href="" class="pageNav">联系方式</a></li>
-                <li><a href="" class="pageNav">其它</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-<!-- banner -->
-<div class="banner">
-    <div class="mask"></div>
-</div>
-<!-- 简历卡片 -->
-<main>
-    <div class="userCard" id="siteAbout" data-x>
-        <div class="userCard-inner clearfix">
-            <div class="portrait">
-                <img src="images/portrait.jpg" alt="">
-            </div>
-            <div class="introduce clearfix">
-                    <span class="hello">
-                        Hello!
-                        <span class="square"></span>
-                    </span>
-                <h1>卜巧囡</h1>
-<!--                <p>前端开发工程师</p>-->
-                <hr>
+<!--Header-->
+<header>
+    <div class="header-content" data-x>
+        <img src="./images/me.jpg" alt="">
+        <figure>
+            <h1>卜 巧 囡</h1>
+            <h6>Resume of Bu Qiaonan</h6>
+            <text>
                 <dl>
-                    <dt>所在城市</dt>
-                    <dd>苏州</dd>
                     <dt>年龄</dt>
                     <dd>23</dd>
+                    <dt>应聘职位</dt>
+                    <dd>前端开发工程师</dd>
+                    <dt>毕业院校</dt>
+                    <dd>苏州市职业大学</dd>
+                    <dt>电话</dt>
+                    <dd>18852400585</dd>
                     <dt>邮箱</dt>
                     <dd>18852400585@163.com</dd>
                 </dl>
+            </text>
+            <div>
+                <a href="#" class="click-btn">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="#" class="click-btn">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-bokeyuan"></use>
+                    </svg>
+                    个人博客
+                </a>
+            </div>
+        </figure>
+    </div>
+</header>
+
+<!--Project-->
+
+<section class="project">
+    <h1>作 品 展 示</h1>
+    <h6>- About My Sample Reels -</h6>
+    <div class="slow-move" data-x>
+        <div class="move1">
+            <div class="explain">
+                <h1>CNODE 社区</h1>
+                <h6>- CNODE COMMUNITY -</h6>
+            </div>
+            <div class="opacity-bg">
+                <h2>CNODE 社区</h2>
+                <p>本项目是通过<i>vue</i>框架实现的技术社区。使用<i>vue-router</i>实现路由跳转。使用<i>axios</i>，通过<i>条件渲染</i>、<i>列表渲染</i>，将信息呈现在页面中。通过<i>生命周期</i>控制特定事件的调用.</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
             </div>
         </div>
-        <footer class="media">
-<!--            <a href="#">-->
-<!--                <svg class="icon" aria-hidden="true">-->
-<!--                    <use xlink:href="#icon-bokeblogger3"></use>-->
-<!--                </svg>-->
-<!--            </a>-->
-<!--            <a href="#">-->
-<!--                <svg class="icon" aria-hidden="true">-->
-<!--                    <use xlink:href="#icon-qq-copy-copy"></use>-->
-<!--                </svg>-->
-<!--            </a>-->
-            <a class="weixin">
-<!--                <svg class="icon" aria-hidden="true">-->
-<!--                    <use xlink:href="#icon-weixin-copy"></use>-->
-<!--                </svg>-->
-            </a>
-        </footer>
-    </div>
-    <!-- 下载按钮 -->
-    <p class="download">
-        <a class="download-content" href="ENUtxt.pdf" target="_blank" download>下载 PDF 简历</a>
-    </p>
-    <p class="introbute-content">
-        前端工程师，技能：前端开发
-    </p>
-</main>
-<!-- 技能 -->
-<section class="skill" id="siteSkills" data-x>
-    <h2>技 能</h2>
-    <div class="skillInner">
-        <div class="skillContent">
-            <ol class="clearfix">
-                <li>
-                    <h3>HTML 5 & CSS 3</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 60%"></div>
-                    </div>
-                </li>
-                <li>
-                    <h3>JavaScript</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 50%"></div>
-                    </div>
-                </li>
-                <li>
-                    <h3>jQuery</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 40%"></div>
-                    </div>
-                </li>
-                <li>
-                    <h3>Vue.js</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 40%"></div>
-                    </div>
-                </li>
-                <li>
-                    <h3>React.js</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 20%"></div>
-                    </div>
-                </li>
-                <li>
-                    <h3>Node.js</h3>
-                    <div class="progressBar">
-                        <div class="progress" style="width: 20%"></div>
-                    </div>
-                </li>
-            </ol>
-        </div>
-    </div>
-</section>
-<!-- 作品集 -->
-<section class="sampleReels show" id="siteWorks" data-x>
-    <h2>作 品 集</h2>
-    <!-- Swiper -->
-    <div id="mySwiper">
-        <div class="swiper-container" id="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/Drawing-board/index.html">
-                        <img src="images/画板.jpg" alt="">
-                        <div class="swiper-slide-1">Canvas 画 板 /PC/移动</div>
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/Project-nav-search/index.html">
-                        <img src="images/导航.jpg" alt="">
-                        <div class="swiper-slide-1">导 航</div>
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/CSS-Drawing/index.html">
-                        <img src="images/css drawing.jpg" alt="">
-                        <div class="swiper-slide-1">CSS 绘图 /PC</div>
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/Vue-demo2-cnode/dist/index.html#/">
-                        <img src="images/cnode.jpg" alt="">
-                        <div class="swiper-slide-1">Vue仿站-cnode社区</div>
-                    </a>
-                </div>
-
-
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/Vue-demo4_Share-Blog/dist/#/">
-                        <img src="images/share-blog.jpg" alt="">
-                        <div class="swiper-slide-1">共享博客 /PC/移动</div>
-                    </a>
-                </div>
-
-
-                <div class="swiper-slide">
-                    <a href="https://bubusourire.github.io/Game-retro-snaker/index.html">
-                        <img src="images/snack-game.jpg" alt="">
-                        <div class="swiper-slide-1">贪吃蛇小游戏 /PC</div>
-                    </a>
-                </div>
-
-
-                <div class="swiper-slide"><a href="https://bubusourire.github.io/Project-nav-search/index.html"><img
-                        src="images/导航.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="https://bubusourire.github.io/Drawing-board/index.html"><img
-                        src="images/画板.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="https://bubusourire.github.io/Project-nav-search/index.html"><img
-                        src="images/导航.jpg" alt=""></a></div>
+        <div class="move2">
+            <div class="explain">
+                <h1>多人共享博客</h1>
+                <h6>- SHARING BLOGS WITH MULTIPLE PEOPLE -</h6>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="opacity-bg">
+                <h2>多人共享博客</h2>
+                <p>本项目使用<i>vue</i>实现在线博客平台，使用了<i>vuex</i>进行管理状态，<i>vue-router</i>实现<i>路由跳转</i>、<i>懒加载</i>等，实现了登录、注册、编辑、发布等功能，并使用了<i>marked.js</i>实现了<i>markdown</i>支持。</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
+            </div>
+        </div>
+    </div>
+    <div class="slow-move" data-x>
+        <div class="move1">
+            <div class="explain">
+                <h1>CNODE 社区</h1>
+                <h6>- CNODE COMMUNITY -</h6>
+            </div>
+            <div class="opacity-bg">
+                <h2>CNODE 社区</h2>
+                <p>本项目是通过<i>vue</i>框架实现的技术社区。使用<i>vue-router</i>实现路由跳转。使用<i>axios</i>，通过<i>条件渲染</i>、<i>列表渲染</i>，将信息呈现在页面中。通过<i>生命周期</i>控制特定事件的调用.</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
+            </div>
+        </div>
+        <div class="move5">
+            <div class="explain">
+                <h1>键 盘 式 自 定 义 导 航</h1>
+                <h6>- CUSTOM NAVIGATION OF KEYBOARD STYLE -</h6>
+            </div>
+            <div class="opacity-bg">
+                <h2>键盘式自定义导航</h2>
+                <p>本项目通过hash仿照出键盘样式，实现键盘<i>按键跳转</i>及网站地址的<i>自定义编辑</i>，自动生成对应的网站icon.</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
+            </div>
+        </div>
+    </div>
+    <div class="slow-move" data-x>
+        <div class="move3">
+            <div class="explain">
+                <h1>CANVAS 画板</h1>
+                <h6>- CANVAS SKETCHPAD -</h6>
+            </div>
+            <div class="opacity-bg">
+                <h2>CANVAS 画板</h2>
+                <p>本项目通过<i>canvas API</i>，实现了在线绘画、橡皮擦、自选颜色及画笔粗细、作品下载等功能，可在<i>PC、移动端</i>使用。</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
+            </div>
+        </div>
+        <div class="move4">
+            <div class="explain">
+                <h1>C S S 绘画</h1>
+                <h6>- C S S - D R A W I N G -</h6>
+            </div>
+            <div class="opacity-bg">
+                <h2>CSS 绘画</h2>
+                <p>本项目实现了CSS代码同步显示并渲染.</p>
+                <a href="#" class="click-btn">预览</a>
+                <a href="#" class="click-btn">源代码</a>
+            </div>
         </div>
     </div>
 </section>
-<section class="message" id="siteMessage" data-x>
-    <h2>留言</h2>
-    <form id="postMessageForm">
-        <label for="">姓名</label>
-        <input type="text" name="name">
-        <label for="">内容</label>
-        <input type="text" name="content">
-        <input type="submit" value="提交" id="submit">
-    </form>
-    <ol id="messageList"></ol>
-</section>
-<footer class="foot"></footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.14.1/dist/av-min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-<script src="https://at.alicdn.com/t/font_1245985_rb6p1k2q24.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
-<script src="js/base/View.js"></script>
-<script src="js/base/Model.js"></script>
-<script src="js/base/Controller.js"></script>
-<script src="js/main.js"></script>
-<script src="js/loading.js"></script>
-<script src="js/part_moving.js"></script>
-<script src="js/jump_parts.js"></script>
-<script src="js/message.js"></script>
-<script src="js/sticky_nav.js"></script>
+<!--technique-->
+
+<section class="technique">
+    <h1>技 能</h1>
+    <h6>- My Technique -</h6>
+    <div class="icons">
+        <div class="part">
+            <div class="icon-part">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-HTML"></use>
+                </svg>
+            </div>
+            <h3>HTML/CSS</h3>
+            <ul>
+                <li>熟悉<i>语义化标签</i>，能根据<i>HTML5</i>标准编写具有语义化的文档结构。</li>
+                <li>掌握<i>CSS基本布局方式</i>，了解<i>flex、grid布局</i>。掌握<i>CSS动画</i>，能实现常用<i>过渡</i>动画效果。</li>
+                <li>了解<i>less、scss的基本使用。</i></li>
+            </ul>
+        </div>
+        <div class="part">
+            <div class="icon-part">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-js"></use>
+                </svg>
+            </div>
+            <h3>JavaScript</h3>
+            <ul>
+                <li>理解JavaScripti<i>原型链</i>、<i>闭包</i>、<i>面向对象</i>等重要概念。</li>
+                <li>了解<i>ES6</i>部分常用语法。</li>
+            </ul>
+        </div>
+        <div class="part">
+            <div class="icon-part">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-jquery"></use>
+                </svg>
+            </div>
+            <h3>JQuery</h3>
+            <ul>
+                <li>了解<i>JQuery</i>常用API，可使用JQuery进行网站开发。</li>
+            </ul>
+        </div>
+        <div class="part">
+            <div class="icon-part">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-vue"></use>
+                </svg>
+            </div>
+            <h3>Vue</h3>
+            <ul>
+                <li>熟悉<i>Vue</i>常用功能，理解<i>生命周期</i>、<i>双向绑定</i>、<i>组件</i>等重要概念。</li>
+                <li>了解<i>组件间通信方式</i>、<i>Vuex</i>、<i>VueRouter</i></li>
+            </ul>
+        </div>
+        <div class="part">
+            <div class="icon-part">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-qita"></use>
+                </svg>
+            </div>
+            <h3>移动端 & 小程序</h3>
+            <ul>
+                <li>掌握<i>vw/vh</i>、<i>动态rem</i>、<i>媒体查询</i>等<i>移动端</i>适配常用技术。</li>
+                <li>掌握<i>小程序开发</i>相关技术，了解小程序开发中<i>数据绑定</i>、<i>列表渲染</i>、<i>事件</i>、<i>组件</i>等重要概念，拥有<i>项目实践经验</i>。</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--experience-->
+<section class="experience">
+    <h1>个 人 经 历</h1>
+    <h6>- My Experience -</h6>
+    <div class="about">
+        <p>❥ 2017年7月毕业于苏州市职业大学，在校期间曾担任院青年志愿者协会副会长，曾多次组织策划社区、校企联办的志愿实践活动，曾被评为院优秀青年志愿者。</p>
+        <p>❥ 后曾就职于苏州乐搜网络科技有限公司。曾任职网站后台运营岗位，涉及公司网站的建设与运营，接触编程即始于此。</p>
+        <p>❥ 进一步了解前端后，发现代码不单单是还原设计稿件，更是优化网站功能、提升用户体验、丰富网站效果的关键之处，因此慢慢深入学习前端编程。编程之路的挑战与快乐同存，我痴迷于此，并不断学习着。</p>
+        <div class="contact">
+            <span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-dianhua"></use>
+                </svg>
+                18852400585
+            </span>
+            <span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-youxiang"></use>
+                </svg>
+                18852400585@163.com
+            </span>
+            <span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+                n953810390
+            </span>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://at.alicdn.com/t/font_1491711_0rvs7pvqqstd.js"></script>
+<script src="js/moveSlow.js"></script>
+
 </body>
-
 </html>

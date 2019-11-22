@@ -1,0 +1,27 @@
+{
+  "name": "Resume-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fullpage.js": "^3.0.7",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUBUSourire/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BUBUSourire/Resume/issues"
+  },
+  "homepage": "https://github.com/BUBUSourire/Resume#readme"
+}

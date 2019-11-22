@@ -2,11 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be35ef91-374a-43a2-b3b6-7bf023d66c06" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/02/8488888e9c2312aa0bedc74633296c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/09/365f9eac1f07b50c6e7747afc3d8fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/0b/a53ea71e73bab2e2bd5a6a87c81690.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/13/553c079df6dc994c510cb05c533a67.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/15/d0f512ec7d5cc7f617e0e6e824d3f2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/2a/86f01f07b9053e4dd37c37dbb2835d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/3e/f3289435c8cca37ce792c64a8671d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/57/37cb72ffab54065d4904a94efb4b50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/57/788c956ca7a6ad7b80423fde38fe2f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/5a/07950468f88408f02a1d5b34581a8c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/6b/ec8e3014009332000ef67f2c3e7da8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/73/8e75f9a84b490c745a684961c827e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/79/d922ccb42622c285c1401251f34ea5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/9f/33a8de11c2dc0d4e261966a4fb280b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/a3/dce4740cccc1dcddefef2e8223fd23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/ae/7769313b20c9e039883fe743dbe535.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/b1/b8eaf7671de52e4c8b737eb5ff971e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/bb/79d395a33526468b2911f3d2c0a64c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/c0/ea221ff7964b64b9018797a63be9fc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/cc/1d72a898aa64691e796c49b58a8cd5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d5/5ffff3662440b4e71275b35f78dc48.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/e6/ec90bf61557c75dfe80427e681dfde.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/ef/57d7be1b1a314409a6a70f1637147a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/f0/08291c513e8a2ac7bb6de4ad9c77fd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/f3/c3b1e2f2b3655a49f63572fd89e1fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Resume-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bg-callout.1795ca4c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bg.e79a717b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/blog.90097583.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button.da4f6d21.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button.da4f6d21.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button.da4f6d21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button.da4f6d21.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/c-node.9d6b0b46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/cnode.de17c65e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css-drawing.b8e49cda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css.81192ade.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css.81192ade.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css.81192ade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css.81192ade.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css.cb711826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/drawing-board.bca1e699.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/drawing.c3252494.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/header-background.929a489d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/me.2791075a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/me.31ff53e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mouse.b4bba73b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/mouse.b4bba73b.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/moveSlow.24c61fb2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/moveSlow.24c61fb2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/nav-search.871c171b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/portfolio-1.7c8ef6d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/search.b89461e4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/share.4d1f4519.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/shareblog.d9bf4048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg-callout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/cnode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/css-drawing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/drawing-board.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/nav-search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/project/share.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fullPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/moveSlow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.extensions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/dist/fullpage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/easings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/easings.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/scrolloverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fullpage.js/vendors/scrolloverflow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/blog.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/canvas.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/cnode.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/drawing.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/search.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/snake.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My Resume.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Hi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Hi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portrait.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENUtxt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitbug_favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2018120145115_Suz4t.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cnode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/css drawing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/share-blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/snack-game.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/导航.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/未标题-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/画板.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/base/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/base/Model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/base/View.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jump_parts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/part_moving.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sticky_nav.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +126,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QwfpOsUh44or4VRC7mG6VPIDxR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建临时文件" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Practice/html  css/土豆视频覆盖悬浮" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\》》》前端《《《\GIT\Resume\My Resume-2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\》》》前端《《《\Practice" />
     </key>
@@ -57,6 +188,12 @@
       <workItem from="1568950586318" duration="53000" />
       <workItem from="1571381530054" duration="2331000" />
       <workItem from="1572788217396" duration="2393000" />
+      <workItem from="1572843434754" duration="647000" />
+      <workItem from="1572844911580" duration="2463000" />
+      <workItem from="1572848544158" duration="12861000" />
+      <workItem from="1572920508377" duration="16701000" />
+      <workItem from="1574337797535" duration="12335000" />
+      <workItem from="1574391631398" duration="21180000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1571384590696</created>
@@ -85,6 +222,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改" />
     <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
